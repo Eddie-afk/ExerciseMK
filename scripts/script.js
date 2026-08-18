@@ -22,6 +22,7 @@ const formCardInputs = formChar.querySelectorAll("input");
 const formCharName = popupCard.querySelector(".form_name");
 const formCharLink = popupCard.querySelector(".form_link");
 const formCharDescription = popupCard.querySelector(".form_description");
+
 const data = [
   {
     title: "Zub-zero",
@@ -56,6 +57,9 @@ const createCard = (personaje) => {
 
   cardDelete.addEventListener("click", () => {
     cardDelete.closest(".card").remove();
+  });
+  cardButton.addEventListener("click", () => {
+    console.log("le dista like a una trajeta");
   });
 
   container.append(card);
