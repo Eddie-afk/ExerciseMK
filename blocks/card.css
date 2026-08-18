@@ -9,11 +9,6 @@
 
   color: white;
 }
-.card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 0 20px rgba(208, 0, 0, 0.7);
-  border-color: #d00000;
-}
 
 .card_title {
   color: #d00000;
@@ -27,13 +22,7 @@
   object-fit: cover;
   border-radius: 10px;
 
-  transition: 0.3s;
-
   border: 3px solid #a40000;
-}
-.card_image:hover {
-  transform: scale(1.03);
-  box-shadow: 0 0 15px rgba(208, 0, 0, 0.8);
 }
 
 .card__button,
@@ -64,8 +53,4 @@
   margin-top: auto;
   width: 100%;
   gap: 20px;
-}
-
-.card__button:hover {
-  transform: scale(1.1);
 }
