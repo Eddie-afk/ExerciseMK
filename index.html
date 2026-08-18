@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="./images/images.png" alt="" class="header_logo" />
+      <nav class="nav">
+        <ul class="nav_links">
+          <li class="nav_link">Iniciar sesion</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="top">
+        <div class="top_container">
+          <div>
+            <img src="./images/scorpion.jpg" alt="" class="top_image" />
+          </div>
+
+          <div class="top-left">
+            <h2 class="profile_name">Scorpion</h2>
+            <h3 class="profile_description">Espectro del infierno</h3>
+
+            <br />
+
+            <button class="user_info_edit">Editar usuario</button>
+          </div>
+
+          <div class="top-middle"></div>
+
+          <div class="top-right top_button">
+            <button>Agregar tarjeta</button>
+          </div>
+        </div>
+
+        <!-- Popup usuario -->
+
+        <div class="popup_user" id="popup_user">
+          <div class="popup_container">
+            <div class="popup_tittle">Titulo del Popup</div>
+
+            <button class="popup_close_user">X</button>
+
+            <div class="popup_content">
+              <form action="" class="form">
+                <label for="name"> Nombre </label>
+
+                <input type="text" class="form_name" name="name" />
+
+                <label for="description"> Descripcion </label>
+
+                <input
+                  type="text"
+                  class="form_description"
+                  name="description"
+                />
+
+                <button class="form_button" id="form_button-user">Save</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Popup tarjeta -->
+
+        <div class="popup_card" id="popup_card">
+          <div class="popup_container">
+            <div class="popup_tittle">Titulo del Popup</div>
+
+            <button class="popup_close_card">X</button>
+
+            <div class="popup_content">
+              <form action="" class="form">
+                <label for="name">Nombre de personaje</label>
+                <input type="text" class="form_name" name="name" />
+
+                <label for="link">Link de imagen</label>
+                <input type="text" class="form_link" name="link" />
+
+                <label for="description">Descripcion</label>
+                <input
+                  type="text"
+                  class="form_description"
+                  name="description"
+                />
+
+                <button class="form_button" id="form_button-card">Save</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <section class="content">
+      <div class="card_container"></div>
+    </section>
+
+    <template id="card_template">
+      <div class="card">
+        <h2 class="card_title">Scorpion</h2>
+
+        <img src="./images/images.png" alt="" class="card_image" />
+
+        <p class="card_description">Infierno</p>
+        <div class="card__buttons">
+          <button class="card__button">♥</button>
+          <button class="card__delete">🗑</button>
+        </div>
+      </div>
+    </template>
+
+    <script type="module" src="./scripts/script.js"></script>
+  </body>
+</html>
