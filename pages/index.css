@@ -8,10 +8,38 @@
 @import url(../blocks/card_container.css);
 
 body {
-  max-width: 1200px;
-  min-width: 320px;
-  margin: 0 auto;
-
+  margin: 0;
   background: linear-gradient(135deg, #050505, #141414, #300000);
   color: white;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+
+  text-align: center;
+
+  background-color: #080808;
+  color: #bbb;
+
+  border-top: 2px solid #a40000;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer p:first-child {
+  color: #d00000;
+  font-weight: bold;
+}
+
+.footer h3 {
+  color: #d00000;
+  text-shadow: 0 0 8px rgba(208, 0, 0, 0.7);
+  letter-spacing: 3px;
 }

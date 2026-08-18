@@ -1,8 +1,10 @@
 header {
   display: flex;
-  width: 100%;
-  padding: 20px 20px 0px 20px;
   justify-content: space-between;
+  align-items: center;
+  background-color: #080808;
+  padding: 15px 40px;
+  border-bottom: 2px solid #a40000;
 }
 
 .header_logo {

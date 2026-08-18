@@ -1,5 +1,6 @@
 .nav {
   max-width: 400px;
+  list-style: none;
 }
 
 .nav_links {

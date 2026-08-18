@@ -39,12 +39,13 @@
 }
 
 .card__button {
-  background-color: #eeeeee;
+  background-color: #050505;
   color: red;
 }
 
 .card__delete {
-  background-color: #eeeeee;
+  background-color: #040404;
+  color: white;
 }
 
 .card_buttons {
