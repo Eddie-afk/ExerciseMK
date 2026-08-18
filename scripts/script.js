@@ -25,7 +25,7 @@ const formCharDescription = popupCard.querySelector(".form_description");
 const data = [
   {
     title: "Zub-zero",
-    link: "https://images.steamusercontent.com/ugc/540757628603401875/B7D8186CC6AE320FABA292CD4DE3A5E055DDC039/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+    link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNGoaox9AzrBuOXDqSGcmFqLThUpKn52ZFtue3ta_-H0YS1_OKyuJHRpo&s=10",
     description: "Lin-kuei",
   },
   {
@@ -35,7 +35,7 @@ const data = [
   },
   {
     title: "Liu Kang",
-    link: "https://i.pinimg.com/originals/71/fd/e7/71fde77355e19073f375d4ccc852c8a9.png",
+    link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa2NOC_Aq5DRYdofU-_Ouy_1g5JQE2GQnHksXFFJcVG2aChWT9H3n0zVV9&s=10",
     description: "Shaolin",
   },
 ];
