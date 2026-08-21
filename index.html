@@ -50,7 +50,13 @@
               <form action="" class="form">
                 <label for="name"> Nombre </label>
 
-                <input type="text" class="form_name" name="name" />
+                <input
+                  type="text"
+                  class="form_name"
+                  name="name"
+                  maxlength="30"
+                  required
+                />
 
                 <label for="description"> Descripcion </label>
 
@@ -58,9 +64,12 @@
                   type="text"
                   class="form_description"
                   name="description"
+                  maxlength="100"
                 />
 
-                <button class="form_button" id="form_button-user">Save</button>
+                <button type="submit" class="form_button" id="form_button-user">
+                  Save
+                </button>
               </form>
             </div>
           </div>
@@ -75,10 +84,10 @@
             <div class="popup_content">
               <form action="" class="form">
                 <label for="name">Nombre de personaje</label>
-                <input type="text" class="form_name" name="name" />
+                <input type="text" class="form_name" name="name" required />
 
                 <label for="link">Link de imagen</label>
-                <input type="text" class="form_link" name="link" />
+                <input type="text" class="form_link" name="link" required />
 
                 <label for="description">Descripcion</label>
                 <input
@@ -87,7 +96,9 @@
                   name="description"
                 />
 
-                <button class="form_button" id="form_button-card">Save</button>
+                <button type="submit" class="form_button" id="form_button-card">
+                  Save
+                </button>
               </form>
             </div>
           </div>
